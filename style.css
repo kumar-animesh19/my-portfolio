@@ -167,13 +167,6 @@ nav ul li a:hover::after{
     font-weight: 500;
     margin-bottom: 15px;
 }
-.services-list div a{
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
-}
 .services-list div:hover{
     background: rgb(167, 5, 5);
     transform: translateY(-10px);
