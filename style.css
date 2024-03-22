@@ -377,6 +377,12 @@ nav .fa-solid{
         font-size: 16px;
         margin-right: 20px;
     } 
+    .work{
+        height: 220px;
+    }
+    .work img{
+        height: 220px;
+    }
     .contact-left, .contact-right{
         flex-basis: 100%;
     }   
