@@ -77,8 +77,8 @@ nav ul li a:hover::after{
 /* About */
 
 #about{
-    padding: 80px 0;
-    color: grey;
+    padding-top: 80px;
+    color: rgb(157, 156, 156);
 }
 .row{
     display: flex;
@@ -102,7 +102,7 @@ nav ul li a:hover::after{
 }
 .tab-titles{
     display: flex;
-    margin: 20px 0 40px;
+    margin: 20px 0;
 }
 .tab-links{
     margin-right: 50px;
@@ -141,16 +141,11 @@ nav ul li a:hover::after{
 
 /* services */
 
-#services{
-    padding: 30px 0;
+#work{
+    padding-top: 80px;
 }
-.services-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-.services-list div{
+.work-list{
+    margin-top: 40px;
     background: rgb(37, 37, 37);
     padding: 40px;
     font-size: 13px;
@@ -158,38 +153,35 @@ nav ul li a:hover::after{
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
 }
-.services-list div i{
-    font-size: 40px;
-    margin-bottom: 30px;
-}
-.services-list div h2{
+.work-list h2{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
 }
-.services-list div:hover{
-    background: rgb(167, 5, 5);
-    transform: translateY(-10px);
+.work-list ul{
+    font-size: 16px;
+    color: rgb(157, 156, 156);
+    margin-left: 15px;
 }
 
-/* My Work */
+/* My Project */
 
-#portfolio{
-    padding: 50px 0;
+#myproject{
+    padding-top: 80px;
 }
-.work-list{
+.project-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
-.work{
+.project{
     border-radius: 10px;
     height: 250px;
     position: relative;
     overflow: hidden;
 }
-.work img{
+.project img{
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -230,14 +222,17 @@ nav ul li a:hover::after{
     border-radius: 50%;
     text-align: center;
 }
-.work:hover img{
+.project:hover img{
     transform: scale(1.1);
 }
-.work:hover .layer{
+.project:hover .layer{
     height: 100%;
 }
 
 /* contact */
+#contact{
+    padding-top: 80px;
+}
 
 .contact-left{
     flex-basis: 35%;
@@ -379,10 +374,10 @@ nav .fa-solid{
         font-size: 16px;
         margin-right: 20px;
     } 
-    .work{
+    .project{
         height: 220px;
     }
-    .work img{
+    .project img{
         height: 100%;
     }
     .contact-left, .contact-right{
